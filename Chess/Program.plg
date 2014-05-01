@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Program - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Program.res" /d "_DEBUG" /d "_AFXDLL" "D:\leichaoran\kknd\fscommand\codes\象棋\Program.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP124.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Program.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\leichaoran\kknd\fscommand\codes\象棋\Chess.cpp"
+"D:\leichaoran\kknd\fscommand\codes\象棋\Enter.cpp"
+"D:\leichaoran\kknd\fscommand\codes\象棋\Getin.cpp"
+"D:\leichaoran\kknd\fscommand\codes\象棋\MainFrm.cpp"
+"D:\leichaoran\kknd\fscommand\codes\象棋\Managers.cpp"
+"D:\leichaoran\kknd\fscommand\codes\象棋\Net.cpp"
+"D:\leichaoran\kknd\fscommand\codes\象棋\NetControl.cpp"
+"D:\leichaoran\kknd\fscommand\codes\象棋\Program.cpp"
+"D:\leichaoran\kknd\fscommand\codes\象棋\ProgramDoc.cpp"
+"D:\leichaoran\kknd\fscommand\codes\象棋\ProgramView.cpp"
+"D:\leichaoran\kknd\fscommand\codes\象棋\Server.cpp"
+"D:\leichaoran\kknd\fscommand\codes\象棋\WaveSound.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP124.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP125.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Program.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\leichaoran\kknd\fscommand\codes\象棋\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP125.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP126.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Program.pdb" /debug /machine:I386 /out:"Debug/Program.exe" /pdbtype:sept 
+".\Debug\Chess.obj"
+".\Debug\Enter.obj"
+".\Debug\Getin.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Managers.obj"
+".\Debug\Net.obj"
+".\Debug\NetControl.obj"
+".\Debug\Program.obj"
+".\Debug\ProgramDoc.obj"
+".\Debug\ProgramView.obj"
+".\Debug\Server.obj"
+".\Debug\StdAfx.obj"
+".\Debug\WaveSound.obj"
+".\Debug\Program.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP126.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Chess.cpp
+Enter.cpp
+Getin.cpp
+MainFrm.cpp
+Managers.cpp
+Net.cpp
+NetControl.cpp
+Program.cpp
+ProgramDoc.cpp
+ProgramView.cpp
+Server.cpp
+WaveSound.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP128.tmp" with contents
+[
+/nologo /o"Debug/Program.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\Chess.sbr"
+".\Debug\Enter.sbr"
+".\Debug\Getin.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\Managers.sbr"
+".\Debug\Net.sbr"
+".\Debug\NetControl.sbr"
+".\Debug\Program.sbr"
+".\Debug\ProgramDoc.sbr"
+".\Debug\ProgramView.sbr"
+".\Debug\Server.sbr"
+".\Debug\WaveSound.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP128.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Program.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
